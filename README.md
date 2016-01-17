@@ -35,3 +35,10 @@ write complicated examples here. The example files have plenty of comments.
 
 If something needs clarification, please open an issue and I will improve the
 documentation around that area in this repo's files.
+
+## "But I don't use Babel/ES6!"
+
+That's fine, too! Not required at all. In that case, the only real difference
+is that you dont need the `--compilers` argument in the mocha call in your
+test script. You can see a standard ES5 example in the `test` directory as
+well.
