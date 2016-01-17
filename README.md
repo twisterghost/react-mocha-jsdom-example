@@ -23,7 +23,8 @@ of react's `render` methods, this may not be for you.
 This is the wonderful part. There is hardly any setup. You just need a tiny
 bit of scaffolding that you require via mocha's `--require` flag. See
 [test/setup](https://github.com/twisterghost/react-mocha-jsdom-example/blob/master/test/setup.js)
-for a documented example of what you'll need.
+for a documented example of what you'll need, and the `test` script defined
+in `package.json` in this repository for how to form your mocha call.
 
 ## Writing tests
 
