@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "An example of testing React components with Mocha and JSDOM",
   "scripts": {
-    "test": "mocha test/*Test.js --require test/setup.js --compilers js:babel-register"
+    "test": "./node_modules/.bin/mocha test/*Test.js --require test/setup.js --compilers js:babel-register"
   },
   "author": "Michael Barrett",
   "license": "ISC",
   "dependencies": {
-    "babel": "6.3.26",
     "babel-preset-es2015": "6.3.13",
     "babel-preset-react": "6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
     "babel-register": "6.4.3",
     "chai": "3.4.1",
     "jsdom": "^7.2.2",
