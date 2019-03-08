@@ -2,6 +2,12 @@
 
 A quick and concise example of testing React components in Mocha using JSDOM.
 
+## Note: Prefer Enzyme
+
+It is better practice to use [Enzyme](https://github.com/airbnb/enzyme) to test
+your React components. However, that is not always strictly possible or the best
+option, so this repo serves as an alternative method for testing react components.
+
 ## Some quick info
 
 ### What JSDOM does for you
